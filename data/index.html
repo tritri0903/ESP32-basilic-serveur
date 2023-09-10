@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Basilic Server</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="/data/leaf-32.ico">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="header">
+      <h1>ESP32 Basilic Server</h1>
+    </div>
+
+    <div class="topnav">
+      <a href="index.html">Home</a>
+      <a href="setting.html">Setting</a>
+    </div>
+    <p> Local temperature: <strong> %TEMP% </strong> °C</p>
+    <p> Lamp temperature: <strong> %LAMPTEMP%</strong> °C</p>
+    <p> Rising time <strong> %RISING_HOUR% : %RISING_MINUTE%</strong></p> 
+    <p> Sunset time <strong> %SUNSET_HOUR% : %SUNSET_MINUTE%</strong></p>
+    <p>Lampe state: <strong> %STATE%</strong></p>
+    <p id="rangeValPar"> Sleep for :</p>
+    <input type="range" onchange="updateSliderPWM(this)" id="userSleepTime"><br>
+    <a href="/sleep"><button class="button">SLEEP</button></a></p>
+    <script src="script.js"></script>
+  </body>
+</html>

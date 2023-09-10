@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "ESP CAm",
+			"path": "../../../../../Documents/PlatformIO/Projects/ESP CAm"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"atomic": "cpp",
+			"*.tcc": "cpp",
+			"fstream": "cpp",
+			"sstream": "cpp",
+			"regex": "cpp",
+			"xutility": "cpp"
+		}
+	}
+}

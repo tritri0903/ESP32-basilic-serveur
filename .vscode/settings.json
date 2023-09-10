@@ -1,0 +1,4 @@
+{
+    "cmake.configureOnOpen": true,
+    "cmake.sourceDirectory": "C:/Users/Tristan/OneDrive/Projet/Projet Développement/Basilic-Serveur/ESP32-web-serveur/.pio/libdeps/esp32doit-devkit-v1/ArduinoJson"
+}

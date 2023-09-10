@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basilic Server</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="icon" type="image/x-icon" href="/data/leaf-32.ico">-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="header">
+      <h1>ESP32 Basilic Server</h1>
+    </div>
+  
+    <div class="topnav">
+      <a href="index.html">Home</a>
+      <a href="setting.html">Setting</a>
+      
+    </div>
+    <form action="/get">
+        <p> Rising time : <input type="time" name="rising" value="%RISING%"/></p>
+        <p> Sunset time : <input type="time" name="sunset" value="%SUNSET%"/></p>
+        <input type="submit" value="Submit"><br><br>
+        
+    </form>
+    <a href="download.html">Download data file</a>
+  </body>
+</html>

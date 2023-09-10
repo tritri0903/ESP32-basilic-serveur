@@ -1,0 +1,6 @@
+{
+    timeH       : "",
+    timeM       : "",
+    localTemp   : 0,
+    lampTemp    : 0
+}

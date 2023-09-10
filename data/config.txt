@@ -1,0 +1,6 @@
+{
+    "rising_hour" : 9,
+    "rising_min" : 30,
+    "sunset_hour" : 23,
+    "sunset_min" : 45
+}
